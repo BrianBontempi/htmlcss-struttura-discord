@@ -4,3 +4,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* misure fisse */
+:root {
+    --space: 1rem;
+    --brd: 1px dashed black;
+}
+
+/* contenitori header */
+.header-top{
+    min-height: 50px;
+    background-color: rgb(194, 221, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deck-top{
+    height: 30px;
+    flex-basis: 70%;
+    background-color: rgb(255, 221, 0);
+    display: flex;
+    justify-content: flex-start;
+}
+.card-top{
+    border: var(--brd);
+    flex-basis: calc(30% / 2);
+}
+.card-top.big{
+    flex-basis: 70%;
+}
