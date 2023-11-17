@@ -7,7 +7,7 @@
 
 /* misure fisse */
 :root {
-    --space: 1rem;
+    --space: 2rem;
     --brd: 1px dashed black;
 }
 
@@ -33,4 +33,17 @@
 }
 .card-top.big{
     flex-basis: 70%;
+}
+.header-bottom{
+    min-height: 500px;
+    background-color: darkblue;
+    padding: var(--space ) 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.header-box{
+    flex-basis: 60%;
+    background-color: rgb(230, 137, 219);
+    border: var(--brd);
 }
