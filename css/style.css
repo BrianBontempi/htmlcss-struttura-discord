@@ -7,7 +7,7 @@
 
 /* ? misure fisse */
 :root {
-    --space: 30px;
+    --space: 40px;
     --brd: 2px dashed black;
 }
 /*  centralizzazione */
@@ -24,18 +24,17 @@
 
 /* contenitori header */
 .header-top{
-    min-height: 50px;
+    min-height: 70px;
     background-color: rgb(194, 221, 238);
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 15px;
 }
 .deck-top{
-    height: 30px;
+    height: 40px;
     flex-basis: 70%;
     background-color: rgb(255, 221, 0);
     display: flex;
-    justify-content: flex-start;
 }
 .card-top{
     border: var(--brd);
@@ -61,7 +60,7 @@
 .gray{
     background-color: rgb(181, 178, 178);
 }
-.main-deck{
+.deck{
     display: flex;
     flex-basis: 70%;
 }
@@ -73,5 +72,12 @@
 .card-xs{
     background-color: pink;
     flex-basis: 40%;
+    border: var(--brd);
+}
+section.container{
+    min-height: 1200px;
+}
+.green{
+    background-color: green;
     border: var(--brd);
 }
