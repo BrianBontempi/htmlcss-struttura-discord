@@ -10,6 +10,18 @@
     --space: 40px;
     --brd: 2px dashed black;
 }
+/* colori fissi */
+.gray{
+    background-color: rgb(181, 178, 178);
+}
+.green{
+    background-color: green;
+    border: var(--brd);
+}
+.dark{
+    background-color: rgb(48, 47, 47);
+    border-bottom: 2px solid white;
+}
 /*  centralizzazione */
 .container{
     display: flex;
@@ -56,10 +68,6 @@
 }
 
 /* contenitori principali */
-
-.gray{
-    background-color: rgb(181, 178, 178);
-}
 .deck{
     display: flex;
     flex-basis: 70%;
@@ -77,7 +85,18 @@
 section.container{
     min-height: 1200px;
 }
-.green{
-    background-color: green;
+/* navigazione fondo pagina */
+.col{
+    flex-basis: calc(80% / 4);
+    background-color: aqua;
     border: var(--brd);
+}
+.col.social{
+    flex-basis: 30%;
+    background-color: salmon;
+    border: var(--brd);
+}
+.container.dark{
+    min-height: 800px;
+    padding: 15px 0 40px;
 }
