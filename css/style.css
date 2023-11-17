@@ -5,10 +5,17 @@
     box-sizing: border-box;
 }
 
-/* misure fisse */
+/* ? misure fisse */
 :root {
     --space: 2rem;
     --brd: 1px dashed black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: var(--space ) 0;
+    min-height: 600px;
 }
 
 /* contenitori header */
@@ -19,7 +26,6 @@
     justify-content: center;
     align-items: center;
 }
-
 .deck-top{
     height: 30px;
     flex-basis: 70%;
@@ -37,13 +43,17 @@
 .header-bottom{
     min-height: 500px;
     background-color: darkblue;
-    padding: var(--space ) 0;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    
 }
 .header-box{
     flex-basis: 60%;
     background-color: rgb(230, 137, 219);
     border: var(--brd);
+}
+
+/* contenitori principali */
+
+.gray{
+    background-color: rgb(181, 178, 178);
 }
